@@ -20,3 +20,26 @@ create index HIS_MANAGER.INDX_DV_DVTT on HIS_MANAGER.CONG_KHAM_HOI_CHAN_BANT (DV
     minextents 1
     maxextents unlimited
   );
+----------------
+SELECT * FROM HIS_FW.DM_THAMSO_DONVI WHERE MA_THAMSO LIKE '8218091%' ORDER BY TO_NUMBER(MA_THAMSO);
+--------------------------------------------------------------------------------------------------------------
+INSERT INTO HIS_FW.DM_THAMSO_DONVI(MA_THAMSO,DVTT,TEN_THAMSO,MOTA_THAMSO)
+VALUES (82180910,82006,'In tổng kết bệnh án YHCT kèm Tờ điều trị','1');
+COMMIT;
+---------------------------------------------------------------------------------------------------------------
+THAMSO_82180901 = "82180901"; // Thêm nhiều phiếu chăm sóc theo giờ hệ thống
+THAMSO_82180902 = "82180902"; // ông khám lấy theo bác điều trị
+THAMSO_82180903 = "82180903"; // Cảnh báo không cho cấp giường trước giờ nhập viện
+THAMSO_82180904 = "82180904"; // Bổ sung cảnh báo khi nhập quá 2000 ký tự trong mục y lệnh tờ điều trị
+THAMSO_82180905 = "82180905"; // Định dạng ngày giờ kiểu dd/mm/yyyy hh24:mi tờ điều trị
+THAMSO_82180906 = "82180906"; // cập nhât ngày ra khi cấp giường
+THAMSO_82180907 = "82180907"; // BA YHCT Nội trú: Load NGUOI_LIEN_HE, SO_DIEN_THOAI từ Phiếu khám bệnh nhập viện ngoại trú
+THAMSO_82180908 = "82180908"; // Không uncheck đúng tuyến khi thay đổi mã ĐKKCB dialog Chỉnh sửa thông tin thông tin hành chính
+THAMSO_82180909 = "82180909"; // Tính số ngày điều trị giường bệnh tính theo ngày không tính theo giờ
+THAMSO_82180910 = "82180910"; // In tổng kết bệnh án YHCT kèm Tờ điều trị
+THAMSO_82180911 = "82180911"; // Hide thông tin phiếu chăm sóc
+THAMSO_82180912 = "82180912"; // Lấy BHYT theo giá trị trên form nghĩ ốm
+THAMSO_82180913 = "82180913"; // Cảnh báo xóa hết Phiếu chăm sóc tabs nhiều Tạo nhiều phiếu chăm sóc trước khi xóa phiếu điều trị
+THAMSO_82180914 = "82180914"; // Bệnh án YHCT 1941: Tên ICD lấy theo input trên giao diện.
+THAMSO_82180915 = "82180915"; // Hiển thị kết quả TTPT ở tabs dịch vụ chức năng hồ sơ khám bệnh
+THAMSO_82180916 = "82180916"; // Hiển thị số tiền còn lại âm màu đỏ
