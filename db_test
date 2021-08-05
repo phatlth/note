@@ -1,0 +1,24 @@
+#NGHE AN l2
+db.url=jdbc:oracle:thin:@//10.193.78.53:1521/PDBHISNGHEAN
+db.pass=123321
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
+
+#NGHE AN DUOCv2 | 40014.tuntn/HeoOm2411
+db.url=jdbc:oracle:thin:@//10.193.78.53:1521/PDBHISNGHEANV2
+db.pass=123321
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
+
+#TEST 124
+db.url=jdbc:oracle:thin:@//10.82.14.124:1521/PDBHISTEST 
+db.pass=666888
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
+
+#TEST 39
+db.url=jdbc:oracle:thin:@//10.193.78.39:1521/PDBHISTEST
+db.pass=666888
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
+
+#BVDH YD CTO
+db.url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.159.134.167)(PORT=1522)))(CONNECT_DATA=(SERVER=SHARED)(SERVICE_NAME=PDBHISCANTHOL2)))
+db.pass=yTe##Tgg$$OraCleVersIoN3$
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
