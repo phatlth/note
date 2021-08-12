@@ -43,3 +43,4 @@ THAMSO_82180913 = "82180913"; // Cảnh báo xóa hết Phiếu chăm sóc tabs 
 THAMSO_82180914 = "82180914"; // Bệnh án YHCT 1941: Tên ICD lấy theo input trên giao diện.
 THAMSO_82180915 = "82180915"; // Hiển thị kết quả TTPT ở tabs dịch vụ chức năng hồ sơ khám bệnh
 THAMSO_82180916 = "82180916"; // Hiển thị số tiền còn lại âm màu đỏ
+THAMSO_82180917 = "82180917"; // Lấy ICD đang điều trị nội trú trên các phiếu: in bảng khai DVKT, in bảng khai thuốc, Phiếu chức năng sống, Tổng kết bệnh án  
