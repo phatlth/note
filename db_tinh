@@ -953,3 +953,8 @@ db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
 db.url_datagruad=jdbc:oracle:thin:@(description=(ADDRESS=(PROTOCOL=TCP)(HOST=10.105.2.97)(PORT=1521))(connect_data=(service_name=PDBHISSOCTRANG)(server=DEDICATED)))
 db.pass_datagruad=123456
 db.dataSourceClassName_datagruad=oracle.jdbc.pool.OracleDataSource
+
+#DB_CAMAU 2 host
+db.url=jdbc:oracle:thin:@(DESCRIPTION=(FAILOVER=on)(LOAD_BALANCE=on)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.159.134.146)(PORT=1522))(ADDRESS=(PROTOCOL=TCP)(HOST=10.159.134.147)(PORT=1522)))(CONNECT_DATA=(FAILOVER_MODE= (TYPE=session) (METHOD=basic) (RETRIES=20)(DELAY=2) )(SERVER=dedicated)(SERVICE_NAME=pdbhiscamau)))
+db.pass=yTe##Tgg$$OraCleVersIoN3$
+db.dataSourceClassName=oracle.jdbc.pool.OracleDataSource
