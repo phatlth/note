@@ -2,6 +2,10 @@ Fix lỗi plsql
 JRProperties.setProperty(JRQueryExecuterFactory.QUERY_EXECUTER_FACTORY_PREFIX + "plsql", "com.jaspersoft.jrx.query.PlSqlQueryExecuterFactory");
 jasperReportTDT.setProperty("net.sf.jasperreports.query.executer.factory.plsql", "com.jaspersoft.jrx.query.PlSqlQueryExecuterFactory");
 
+// khai báo tham số report mẫu
+dm_loai_report_mau
+
+
 https://cntt.vnpt.vn/browse/TGGDEV-4283
 -----------------------
 lấy file trên host login: cmu/HeoOm2411 >> url: /cmu_tools
